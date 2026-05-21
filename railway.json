@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "java -jar target/donot-listen-1.0.0.jar",
+    "healthcheckPath": "/actuator/health",
+    "numReplicas": 1
+  }
+}
