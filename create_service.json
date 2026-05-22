@@ -1,0 +1,1 @@
+{"query": "mutation { serviceCreate(input: { projectId: \"5f3ba459-fe01-4f0b-84fd-ec9140578480\", name: \"donot-listen-v2\", source: { image: \"ghcr.io/lyccc69/donot-listen:latest\" }, variables: \"SPRING_PROFILES_ACTIVE=dev\nCORS_ALLOWED_ORIGINS=https://qianduan-alpha.vercel.app\nJWT_SECRET=donot-listen-jwt-secret-2024\" }) { id name } }"}
